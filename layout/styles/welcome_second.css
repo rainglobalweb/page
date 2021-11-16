@@ -8,7 +8,7 @@
 
 .mainpic{
   grid-area: 1 / 2 / 3 / 4;
-  background-image: url("/images/pictures/main3.jpg");
+  background-image: url("/page/images/pictures/main3.jpg");
   background-size: cover;
   background-position: center bottom;
   background-color: #a5d4e6;
@@ -66,7 +66,7 @@
 
   .mainpic{
     grid-area: 1 / 1 / 4 / 4;
-    background-image: url("/images/pictures/main.jpg");
+    background-image: url("/page/images/pictures/main.jpg");
     background-position: center bottom;
   }
 

@@ -14,7 +14,7 @@
 .a1{
   aspect-ratio: 3.2 / 1;
   grid-area: 1 / 1 / 2 / 3;
-  background-image: url("/images/pictures/rails2.jpg");
+  background-image: url("/page/images/pictures/rails2.jpg");
   background-size: cover;
   background-position: center;
   background-color: #a5d4e6;
@@ -83,7 +83,7 @@
 }
 
 .b2{
-  background-image: url("/images/pictures/trucks2.jpg");
+  background-image: url("/page/images/pictures/trucks2.jpg");
   background-size: cover;
   background-position: top;
   background-color: #ebebeb;

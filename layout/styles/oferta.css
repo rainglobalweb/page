@@ -47,7 +47,7 @@
   min-height: 100vh;
   grid-area: 1 / 1 / 4 / 4;
   background-color: #66a7ca;
-  background-image: url("/images/pictures/storage.jpg");
+  background-image: url("/page/images/pictures/storage.jpg");
   background-size: cover;
 }
 
@@ -65,7 +65,7 @@ h3{
   min-height: 57vh;
   grid-area: 3 / 2 / 4 / 3;
   background-color: #caccc9;
-  background-image: url("/images/pictures/trucks.jpg");
+  background-image: url("/page/images/pictures/trucks.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
