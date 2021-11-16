@@ -1,0 +1,126 @@
+/* ---------------- Welcome -------------------*/
+.welcome{
+  display: grid;
+  width: 100%;
+  grid-template-rows: 15vh 85vh;
+  grid-template-columns: 39vw 11vw auto;
+}
+
+.mainpic{
+  grid-area: 1 / 2 / 3 / 4;
+  background-image: url("/page/images/pictures/main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #a5d4e6;
+}
+
+.sped{
+  grid-area: 2 / 1 / 3 / 3;
+  padding-left: 14vw;
+}
+
+.sped > .font3{
+  font-size: 8rem;
+  padding-top: 24vh;
+}
+
+.sped > a > .btnred{
+  margin-right: 17.5vw;
+}
+
+.btnblue{
+  width: 60px;
+  height: 65px;
+  font-weight: 600;
+  padding: 5px 0 0 5px;
+}
+
+.arrow{
+  height:35%;
+}
+
+/* -------------------------------- Media Queries -----------------------------------*/
+/* -------------------------------- ------------- -----------------------------------*/
+
+/* ---------Max width--------*/
+@media (max-width: 1499.98px) {
+  /* ---------------- Welcome -------------------*/
+  .sped > .font3 {
+    font-size: 7rem;;
+  }
+}
+
+@media (max-width: 1329.98px) {
+  /* ---------------- Welcome -------------------*/
+  .sped{
+    padding-left: 12vw;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  /* ---------------- Welcome -------------------*/
+  .sped{
+    padding-left: 10vw;
+  }
+
+  .sped > .font3 {
+    font-size: 62px;
+    padding-top: 22vh;
+  }
+}
+
+@media (max-width: 991.98px) {
+  /* ---------------- Welcome -------------------*/
+  .welcome{
+    display: grid;
+    grid-template-rows: 45vh auto minmax(auto, 40vh);
+    grid-template-columns: 15vw auto 15vw;
+    height: 100vh;
+  }
+
+  .mainpic{
+    grid-area: 1 / 1 / 4 / 4;
+    background-position: center;
+  }
+
+  .sped{
+    grid-area: 2 / 2 / 3 / 3;
+    padding: 10% 14%;
+  }
+
+  .sped > .font3{
+    font-size: 8vw;
+    padding: 0;
+  }
+
+  .sped a button{
+    display: none;
+  }
+}
+
+@media (max-width: 840.98px) {}
+
+@media (max-width: 749.98px) {}
+
+@media (max-width: 633.98px) {}
+
+@media (max-width: 439.98px) {}
+
+@media (max-width: 339.98px) {}
+
+/* -------- Max HEIGHT ------*/
+@media (max-height: 419.98px)  {
+  /* ---------------- Welcome -------------------*/
+  .sped > .font3{
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+@media (max-height: 349.98px)  {
+  /* ---------------- Welcome -------------------*/
+  .sped > .font3{
+    font-size: 20px;
+    text-align: left;
+  }
+}
