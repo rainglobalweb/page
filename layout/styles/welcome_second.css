@@ -1,0 +1,119 @@
+/* ---------------- Welcome -------------------*/
+.welcome{
+  display: grid;
+  width: 100%;
+  grid-template-rows: 99px 130px 45px;
+  grid-template-columns: 39vw 11vw auto;
+}
+
+.mainpic{
+  grid-area: 1 / 2 / 3 / 4;
+  background-image: url("/images/pictures/main3.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-color: #a5d4e6;
+}
+
+.sped{
+  grid-area: 2 / 1 / 4 / 3;
+  padding-left: 8vw;
+}
+
+.w1{
+  display: table;
+  padding: 2px 6px;
+  margin-top: 38px;
+}
+
+/* -------------------------------- Media Queries -----------------------------------*/
+/* -------------------------------- ------------- -----------------------------------*/
+
+/* ---------Min width--------*/
+@media (min-width: 1399.98px) {}
+
+/* ---------Max width--------*/
+@media (max-width: 1329.98px) {
+  /* ---------------- Welcome -------------------*/
+  .sped > .font3 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {
+  /* ---------------- Welcome -------------------*/
+  .welcome{
+    grid-template-rows: 89px 100px 45px;
+    grid-template-columns: 37vw 13vw auto;
+  }
+
+  .sped > .font3{
+    font-size: 5.5rem;
+  }
+
+  .w1{
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 840.98px) {
+  /* ---------------- Welcome -------------------*/
+  .welcome{
+    grid-template-rows: 10vh 150px 10vh;
+    grid-template-columns: auto 300px auto;
+  }
+
+  .mainpic{
+    grid-area: 1 / 1 / 4 / 4;
+    background-image: url("/images/pictures/main.jpg");
+    background-position: center bottom;
+  }
+
+  .sped{
+    grid-area: 2 / 2 / 3 / 3;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .sped > .font3{
+    font-size: 7rem;
+  }
+
+  .w1{
+    margin: 30px auto 0 auto;
+  }
+}
+
+@media (max-width: 749.98px) {}
+
+@media (max-width: 633.98px) {}
+
+@media (max-width: 439.98px) {
+  /* ---------------- Welcome -------------------*/
+  .welcome{
+    grid-template-rows: 10vh 120px 10vh;
+    grid-template-columns: auto 230px auto;
+  }
+
+  .sped > .font3{
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 339.98px) {
+  /* ---------------- Welcome -------------------*/
+  .welcome{
+    grid-template-rows: 10vh 105px 10vh;
+    grid-template-columns: 15vw auto 15vw;
+  }
+
+  .sped > .font3{
+    font-size: 4rem;
+  }
+
+  .w1{
+    font-size: 1rem;
+    margin: 25px auto 0 auto;
+  }
+}/* End @media Queries*/

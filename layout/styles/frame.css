@@ -1,0 +1,101 @@
+/* HTML 5 Overrides*/
+address, article, aside, figcaption, figure, footer, header, main, nav, section, ul{display:block; margin:0; padding:0;}
+
+html, body, span, button, a, p, h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+
+:root{
+  font-size: 10px;
+}
+
+body{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.bg1{background-color: #ff001e;}  /*red*/
+.bg2{background-color: #00aeef;}  /*blue*/
+.bg3{background-color: #e2e2e2;}  /*lightgrey*/
+.bg4{background-color: #cbcbcb;}  /*grey*/
+
+.white{color: #ffffff;}
+.black{color: #000000;}
+.red{color: #ff001e;}
+.lightgrey{color: #bbbbbb;}
+.darkgrey{color: #231f20;}
+
+.font1{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.font2{
+  font-family: 'Barlow', sans-serif;
+  font-size: 2.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.font3{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 7.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.font4{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn{
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btnred{
+  width: 10rem;
+  height: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #ff001e;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.btngrey{
+  width: 10rem;
+  height: 3rem;
+  color: #000;
+  text-transform: uppercase;
+  background-color: #cbcbcb;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.btn:hover{cursor: pointer;}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 1399.99px) {
+  body{
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body{
+    font-size: 1.6rem;
+  }
+}

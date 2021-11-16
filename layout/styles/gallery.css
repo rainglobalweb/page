@@ -1,0 +1,75 @@
+/* ---------------- Gallery -------------------*/
+.galery{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 21vh;
+}
+
+.g1{
+  padding-top: 85%;
+  background-image: url("/images/pictures/storageplaza.jpg");
+  background-size: cover;
+}
+
+.g2{
+  padding-top: 85%;
+  background-image: url("/images/pictures/train.jpg");
+  background-size: cover;
+}
+
+.g3{
+  padding-top: 85%;
+  background-image: url("/images/pictures/highway.jpg");
+  background-size: cover;
+}
+
+/* -------------------------------- Media Queries -----------------------------------*/
+/* -------------------------------- ------------- -----------------------------------*/
+
+/* ---------Min width--------*/
+@media (min-width: 1399.98px) {}
+
+/* ---------Max width--------*/
+@media (max-width: 1329.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {
+  /* ---------------- Gallery -------------------*/
+  .galery{
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10vh;
+  }
+
+  .g3{
+    display: none;
+  }
+}
+
+@media (max-width: 840.98px) {}
+
+@media (max-width: 749.98px) {}
+
+@media (max-width: 633.98px) {
+  /* ---------------- Gallery -------------------*/
+  .galery{
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+
+  .g2, .g3{
+    display: none;
+  }
+}
+
+@media (max-width: 439.98px) {}
+
+@media (max-width: 339.98px) {}
+
+/* -------- Max HEIGHT ------*/
+@media (max-height: 419.98px)  {}
+
+@media (max-height: 349.98px)  {}
